@@ -24,3 +24,14 @@ html {
 /* Modular Styles */
 
 /* State Styles */
+@media screen and (min-width: 22.5em) {  /*360px*/
+
+}
+
+@media screen and (min-width: 50.25em) {  /* 804px*/
+
+}
+
+@media screen and (min-width: 82.5em) {  /*1320px*/
+
+}
