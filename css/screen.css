@@ -37,7 +37,11 @@ label {
   font-size: 0.711em; /* 17 / 24 = 0.711 */
   line-height: 1.25em;
   display: block;
-
+  padding: 0.75em; /* 18 / 24 = 0.75*/
+  margin-left: 2.5em;
+  margin-right: 2.5em;
+  background-color: #d1d1d1;
+  margin-bottom: 1.25em;
 }
 
 /* Layout Styles */
