@@ -27,6 +27,11 @@ li {
   padding-top: 1.25em; /* 30 / 24 = 1.25 */
 }
 
+ul {
+  text-align: center;
+  padding-top: 1.25em; /* 30 / 24 = 1.25 */
+}
+
 /* Layout Styles */
 
 /* Modular Styles */
