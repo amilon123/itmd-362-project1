@@ -15,8 +15,8 @@ html {
   text-align: center;
   color: black;
   font-family: Orbitron, helvetica, verdana, times;
-  font-size: 1.438em; /* 23 / 16 = 1.438 */
-  line-height: 0.917em; /* 22 / 24 = 0.917*/
+  font-size: 1.625em; /* 26 / 16 = 1.625 */
+  line-height: 0.923em; /* 24 / 26 = 0.923*/
 }
 
 /* Layout Styles */
