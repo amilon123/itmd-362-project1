@@ -19,6 +19,14 @@ html {
   line-height: 0.923em; /* 24 / 26 = 0.923*/
 }
 
+body {
+  padding-bottom: 1.25em; /* 30 / 24 = 1.25 */
+}
+
+li {
+  padding-top: 1.25em; /* 30 / 24 = 1.25 */
+}
+
 /* Layout Styles */
 
 /* Modular Styles */
