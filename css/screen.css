@@ -32,6 +32,10 @@ ul {
   padding-top: 1.25em; /* 30 / 24 = 1.25 */
 }
 
+label {
+  font-family: volkhov;
+}
+
 /* Layout Styles */
 
 /* Modular Styles */
