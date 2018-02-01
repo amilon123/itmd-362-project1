@@ -69,8 +69,13 @@ input {
     line-height: 1.133em; /* 34 / 30 = 1.133*/
     padding-top: 1em; /* 30 / 30 = 1 */
     padding-bottom: 1em;
-
   }
+
+  #isps h3 {
+  font-size: 1.375em; /* 22 / 16 = 1.375 */
+  line-height: 1.133em; /* 34 / 30 = 1.133*/
+  }
+
 
 }
 
