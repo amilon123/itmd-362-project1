@@ -44,6 +44,13 @@ label {
   margin-bottom: 1.25em;
 }
 
+input {
+  border-color: #d1d1d1;
+  padding: 0.917em; /* 22 / 24 = 0.917*/
+  padding-bottom: 1.25em; /* 30 / 24 = 1.25*/
+}
+
+
 /* Layout Styles */
 
 /* Modular Styles */
