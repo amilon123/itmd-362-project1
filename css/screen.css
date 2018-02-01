@@ -34,6 +34,9 @@ ul {
 
 label {
   font-family: volkhov;
+  font-size: 0.711em; /* 17 / 24 = 0.711 */
+  line-height: 1.25em;
+
 }
 
 /* Layout Styles */
