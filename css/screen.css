@@ -65,6 +65,11 @@ input {
   #net {
     font-weight: bold;
     font-variant: small-caps;
+    font-size: 1.875em; /* 30 / 16 = 1.875 */
+    line-height: 1.133em; /* 34 / 30 = 1.133*/
+    padding-top: 1em; /* 30 / 30 = 1 */
+    padding-bottom: 1em;
+
   }
 
 }
