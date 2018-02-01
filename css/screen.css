@@ -89,6 +89,14 @@ input {
     line-height: 1.133em; /* 34 / 30 = 1.133*/
   }
 
+  #quote p {
+    font-size: 0.875em; /* 14 / 16 = 0.875 */
+    line-height: 1.133em; /* 34 / 30 = 1.133*/
+    padding-top: 1em; /* 30 / 30 = 1 */
+    padding-bottom: 1em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
 
 }
 
