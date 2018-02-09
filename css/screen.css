@@ -14,7 +14,7 @@ html {
   background-color: #dc143c; /* Crimson */
   text-align: center;
   color: black;
-  font-family: Orbitron, helvetica, verdana, times;
+  font-family: 'Orbitron', helvetica, verdana, times;
   font-size: 1.625em; /* 26 / 16 = 1.625 */
   line-height: 0.923em; /* 24 / 26 = 0.923*/
 }
@@ -33,7 +33,7 @@ ul {
 }
 
 label {
-  font-family: volkhov;
+  font-family: 'Volkhov';
   font-size: 0.711em; /* 17 / 24 = 0.711 */
   line-height: 1.25em;
   display: block;
