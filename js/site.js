@@ -31,4 +31,10 @@ $('#contact-form').on('submit',
       return false;
     }
 
+    else {
+      console.log($('#name').val(), $('#email').val(), $('#phone').val());
+      $(this).remove();
+      $('#content').append('<p class="valid"> Thank you ' + name +' , you have been added to our mailing list! </p>');
+    }
+
   };
