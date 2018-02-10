@@ -17,5 +17,12 @@ $('#contact-form').on('submit',
       return false;
     }
 
+    else if(!valid_email.test(email)) {
+      console.log('invalid email');
+      $(this).remove();
+      $('label [for="email"]').append('<p class="invalid"> *Ops, not quite. Please enter a valid email address (you@example.com)*</p>');
+      return false;
+    }
+
 
   };
