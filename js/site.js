@@ -24,5 +24,11 @@ $('#contact-form').on('submit',
       return false;
     }
 
+    else if(!valid_phone.test(phone)) {
+      console.log('invalid phone');
+      $(this).remove();
+      $('label [for="phone"]').append('<p class="invalid"> *Ops, not quite. Please enter a phone number in the following format (###-###-####)*</p>');
+      return false;
+    }
 
   };
