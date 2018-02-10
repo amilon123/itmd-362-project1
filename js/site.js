@@ -10,6 +10,12 @@ $('#contact-form').on('submit',
     var phone = $('#phone').val();
     var valid_phone = /\d{3}.+\d{3}.+\d{4}/;
 
+    if(name == '' || name == null) {
+      console.log('invalid name');
+      $(this).remove();
+      $('label [for="name"]').append('<p class="invalid"> *Ops, not quite. Please enter a first AND last name*</p>');
+      return false;
+    }
 
 
   };
