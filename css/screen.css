@@ -73,6 +73,19 @@ section {
 /* Modular Styles */
 
 /* State Styles */
+
+.wf-active #isps h3 {
+  font-weight: 500;
+}
+
+.wf-active #quote h3 {
+  font-weight: 700;
+}
+
+.wf-active #quote p {
+  font-weight: 400i;
+}
+
 @media screen and (min-width: 22.5em) {  /*360px*/
 
   #net h2 {
