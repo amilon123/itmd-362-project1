@@ -93,6 +93,12 @@ section {
   }
 
   #net {
+    color: green;
+    font-size: 0.875em; /* 14 / 16 = 0.875 */
+    padding-bottom: 2em;
+  }
+
+  #project {
     font-weight: bold;
     font-variant: small-caps;
     font-size: 1.875em; /* 30 / 16 = 1.875 */
