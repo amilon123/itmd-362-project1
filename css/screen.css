@@ -55,6 +55,18 @@ input {
   padding-bottom: 1.25em; /* 30 / 24 = 1.25*/
 }
 
+section {
+  font-family: 'Philosopher';
+}
+
+#quote h3 {
+  font-family: 'Philosopher';
+}
+
+#quote p {
+  font-family: 'Philosopher';
+}
+
 
 /* Layout Styles */
 
@@ -63,8 +75,8 @@ input {
 /* State Styles */
 @media screen and (min-width: 22.5em) {  /*360px*/
 
-  #project{
-    color: silver;
+  #net h2 {
+    font-family: 'Philosopher';
   }
 
   #net {
