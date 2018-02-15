@@ -11,9 +11,9 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* Base Styles */
 
 html {
-  background-color: #dc143c; /* Crimson */
+  background-color: black;
   text-align: center;
-  color: black;
+  color: #dc143c; /* Crimson */
   font-family: 'Orbitron', helvetica, verdana, times;
   font-size: 1.625em; /* 26 / 16 = 1.625 */
   line-height: 0.923em; /* 24 / 26 = 0.923*/
