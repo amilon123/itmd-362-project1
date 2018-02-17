@@ -36,7 +36,6 @@ li {
 }
 
 ul {
-  text-align: center;
   padding-top: 1.25em; /* 30 / 24 = 1.25 */
 }
 
@@ -116,6 +115,8 @@ input[type="submit"] {
 .inputs .submit {
   border: 0;
 }
+
+
 
 
 /* Layout Styles */
