@@ -19,4 +19,18 @@ $('#email').on('keyup', function() {
   }
 });
 
-  };
+$('#phone').on('keyup', function() {
+  var phone = {
+    val: $(this).val(),
+    pat: /\d{3}.+\d{3}.+\d{4}/
+  }
+  if((phone.pat).test(email.val)) {
+    console.log('working');
+    /*$('input[type="submit"]').addClass('show');*/
+  }
+  else {
+    console.log('invalid email');
+    $(this).remove();
+    $('label [for="phone"]').append('<p class="invalid"> *Ops, not quite. Please enter a phone number in the following format (###-###-####)*</p>');
+  }
+});
