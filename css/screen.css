@@ -40,7 +40,26 @@ ul {
   padding-top: 1.25em; /* 30 / 24 = 1.25 */
 }
 
+section {
+  font-family: 'Philosopher';
+}
+
+#quote h3 {
+  font-family: 'Philosopher';
+}
+
+#quote p {
+  font-family: 'Philosopher';
+}
+
+label,
+input {
+  display: block;
+  font-size: inherit;
+  line-height: inherit;
+}
 label {
+  height: 1.222em; /* 22 / 18 = 1.222em */
   font-family: 'Volkhov';
   font-size: 0.711em; /* 17 / 24 = 0.711 */
   line-height: 1.25em;
