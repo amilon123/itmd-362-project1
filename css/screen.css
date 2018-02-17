@@ -62,13 +62,30 @@ label {
   height: 1.222em; /* 22 / 18 = 1.222em */
   font-family: 'Volkhov';
   font-size: 0.711em; /* 17 / 24 = 0.711 */
-  line-height: 1.25em;
-  display: block;
-  padding: 0.75em; /* 18 / 24 = 0.75*/
-  margin-left: 2.5em;
-  margin-right: 2.5em;
-  background-color: #d1d1d1;
-  margin-bottom: 1.25em;
+}
+input {
+  box-sizing: border-box;
+  border: 0;
+  line-height: 1;
+  padding: 0.722em 0; /* 13 / 18 = 0.722 */
+  height: 2.444em; /* 44 / 18 = 2.444 */
+  background: inherit;
+}
+input[type="submit"] {
+  cursor: pointer;
+  background: #CCC;
+  padding: 0.611em; /* 11 / 18 = 0.6111; (22 - 13) = 9 / 18 = 0.5 */
+  border-radius: 0.2em;
+  float: right;
+}
+.user_form li {
+  padding: 0.611em; /* 11 / 18 = 0.6111; (22 - 13) = 9 / 18 = 0.5 */
+  margin-bottom: 0.611em; /* 11 / 18 = 0.6111 */
+  border-radius: 0.2em;
+}
+.user_form .submit {
+  padding-right: 0;
+  background: inherit;
 }
 
 html {
@@ -120,6 +137,11 @@ input[type="submit"] {
 }
 
 @media screen and (min-width: 22.5em) {  /*360px*/
+
+  input[type="submit"] {
+    margin-left: 33%;
+    width: 50%;
+  }
 
   #net h2 {
     font-family: 'Philosopher';
