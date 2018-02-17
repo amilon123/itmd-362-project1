@@ -1,7 +1,8 @@
 $('html').removeClass('nojs').addClass('js');
 
-    var name = $('#name').val();
-    var valid_name = true;
+$('.user_form li').on('click', function() {
+  $(this).find('user_form').focus();
+});
 
     var email = $('#email').val();
     var valid_email = /.+@.+/;
