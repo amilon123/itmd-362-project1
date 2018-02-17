@@ -15,7 +15,7 @@ $('#email').on('keyup', function() {
   else {
     console.log('invalid email');
     $(this).remove();
-    $('label [for="email"]').append('<p class="invalid"> *Ops, not quite. Please enter a valid email address (you@example.com)*</p>');
+    $('label [for="email"]').append('<p class="invalid"> *A valid email address; (e.g., you@example.com)*</p>');
   }
 });
 
@@ -31,6 +31,6 @@ $('#phone').on('keyup', function() {
   else {
     console.log('invalid email');
     $(this).remove();
-    $('label [for="phone"]').append('<p class="invalid"> *Ops, not quite. Please enter a phone number in the following format (###-###-####)*</p>');
+    $('label [for="phone"]').append('<p class="invalid"> *A valid phone number; (###-###-####)*</p>');
   }
 });
