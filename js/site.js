@@ -24,12 +24,12 @@ $('#phone').on('keyup', function() {
     val: $(this).val(),
     pat: /\d{3}.+\d{3}.+\d{4}/
   }
-  if((phone.pat).test(email.val)) {
+  if((phone.pat).test(phone.val)) {
     console.log('working');
     /*$('input[type="submit"]').addClass('show');*/
   }
   else {
-    console.log('invalid email');
+    console.log('invalid phone');
     $(this).remove();
     $('label [for="phone"]').append('<p class="invalid"> *A valid phone number; (###-###-####)*</p>');
   }
