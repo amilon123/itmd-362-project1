@@ -1,5 +1,4 @@
-$('#contact-form').on('submit',
-  function(e)) {
+$('html').removeClass('nojs').addClass('js');
 
     var name = $('#name').val();
     var valid_name = true;
