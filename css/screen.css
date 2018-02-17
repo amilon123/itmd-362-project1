@@ -71,22 +71,33 @@ label {
   margin-bottom: 1.25em;
 }
 
+html {
+  background: #222;
+  color: #ddd;
+}
+
+a,
 input {
-  border-color: #d1d1d1;
-  padding: 0.917em; /* 22 / 24 = 0.917*/
-  padding-bottom: 1.25em; /* 30 / 24 = 1.25*/
+  color: #37ced0;
 }
 
-section {
-  font-family: 'Philosopher';
+input::placeholder {
+  color: #37ced0;
+  opacity: 0.7;
 }
 
-#quote h3 {
-  font-family: 'Philosopher';
+input[type="submit"] {
+  background: #37ced0;
+  color: #222;
 }
 
-#quote p {
-  font-family: 'Philosopher';
+.inputs li {
+  /* border: 1px solid #444; */
+  background: #3F3F3F;
+}
+
+.inputs .submit {
+  border: 0;
 }
 
 
