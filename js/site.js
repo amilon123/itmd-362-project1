@@ -7,7 +7,7 @@ $('.user_form li').on('click', function() {
 $('#email').on('keyup', function() {
   var email = {
     val: $(this).val(),
-    pat: /.+@.+/
+    pat: /.+@.+/;
   }
   if((email.pat).test(email.val)) {
     console.log('working');
@@ -22,7 +22,7 @@ $('#email').on('keyup', function() {
 $('#phone').on('keyup', function() {
   var phone = {
     val: $(this).val(),
-    pat: /\d{3}.+\d{3}.+\d{4}/
+    pat: /\d{3}.+\d{3}.+\d{4}/;
   }
   if((phone.pat).test(email.val)) {
     console.log('working');
