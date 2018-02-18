@@ -59,17 +59,7 @@ section {
 }
 
 section h3 {
-  color: #6B9E9E;
-  font-weight: bold;
-}
-
-#quote h3 {
-  font-family: 'Ubuntu', 'Philosopher', 'Roboto', 'PT Sans';
-}
-
-#quote p {
-  font-family: 'Ubuntu', 'Philosopher', 'Roboto', 'PT Sans';
-
+  color: #C2EBE0;
 }
 
 label,
@@ -93,21 +83,10 @@ input {
 }
 input[type="submit"] {
   cursor: pointer;
-  /*background: #CCC;*/
   padding: 0.611em; /* 11 / 18 = 0.6111; (22 - 13) = 9 / 18 = 0.5 */
   border-radius: 0.2em;
   float: right;
 }
-.user-form li {
-  padding: 0.611em; /* 11 / 18 = 0.6111; (22 - 13) = 9 / 18 = 0.5 */
-  margin-bottom: 0.611em; /* 11 / 18 = 0.6111 */
-  border-radius: 0.2em;
-}
-.user-form .submit {
-  padding-right: 0;
-  background: inherit;
-}
-
 a,
 input {
   color: #ffaa80; /*user input*/
@@ -120,11 +99,51 @@ input::placeholder {
 
 input[type="submit"] {
   font-family: 'Raleway';
-  background: #C2EBE0; /*box around button*/
-  color: #005747; /*text color in button*/
+  background: #004A45; /*box around button*/
+  color: #ffaa80; /*text color in button*/
   border-style: outset;
   border-width: medium;
   border-color: #005C52;
+}
+
+#project h1 {
+  color: #C22900; /*#FF2400;*/
+}
+
+#net h2 {
+  font-family: 'Ubuntu', 'Philosopher', 'Roboto', 'PT Sans';
+  font-size: 1.5em; /* 24 /16 = 1.5*/
+  color: #C2EBE0;
+  background-color: #004A45; /* #008A82;*/
+}
+
+#isps h3 {
+  font-family: 'Philosopher',  'Ubuntu', 'Roboto', 'PT Sans';
+}
+
+#quote h3 {
+  font-family: 'Philosopher',  'Ubuntu', 'Roboto', 'PT Sans';
+}
+
+#quote p {
+  font-size: 1.375em; /* 22 / 16 = 1.375 */
+}
+
+
+/* Layout Styles */
+/*
+  Hint: these tend to be
+  1. IDs; but also classes, sometimes
+  2. concerned with layout and spatial
+     relationships
+*/
+#project h1 {
+  padding-left: 0.1em;
+}
+
+#net h2 {
+  text-align: right;
+  padding-right: 0.1em;
 }
 
 .check label {
@@ -148,9 +167,40 @@ input[type="submit"] {
   width: 5%;
 }
 
+/* Modular Styles */
+/*
+  Repeating style patterns.
+  Hint: these tend to be:
+  1. classes and relationship selectors
+  2. concerned with adjustments to base styles,
+      spacing, color, etc. etc.
+*/
+#project h1 {
+  border-width: medium;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-radius: 0.1em;
+  border-color: white;
+  opacity: 0.7;
+}
+
+#net h2 {
+  text-align: right;
+  border-radius: 0.2em;
+  border-color: #005C52;
+  padding-right: 0.1em;
+}
+
 .user-form li {
-  /* border: 1px solid #444; */
-  background: #004A45; /*boxes around input fields*/
+  padding: 0.611em; /* 11 / 18 = 0.6111; (22 - 13) = 9 / 18 = 0.5 */
+  margin-bottom: 0.611em; /* 11 / 18 = 0.6111 */
+  border-radius: 0.2em;
+  background: #007563; /* HERE !!!!! boxes around input fields*/
+}
+
+.user-form .submit {
+  padding-right: 0;
+  background: inherit;
 }
 
 .user-form .button {
@@ -159,18 +209,22 @@ input[type="submit"] {
   clear: both;
 }
 
-/* Layout Styles */
-
-/* Modular Styles */
-
 /* State Styles */
+/*Hint: these tend to be:
+1. Driven by media queries
+2. Influenced by JavaScript
+3. Organized by Base, Layout, Module, State
+*/
+.wf-active input[type="submit"] {
+  font-weight: 700;
+}
 
 .wf-active #isps h3 {
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .wf-active #quote h3 {
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .wf-active #quote p {
@@ -220,7 +274,7 @@ input[type="submit"] {
   }
 
   #quote p {
-    font-size: 0.875em; /* 14 / 16 = 0.875 */
+    font-size: 0.8em; /* 14 / 16 = 0.875 */
     line-height: 1.133em; /* 34 / 30 = 1.133*/
     padding-top: 1em; /* 30 / 30 = 1 */
     padding-left: 1em;
@@ -234,6 +288,7 @@ input[type="submit"] {
   }
 
   #quote p:last-child {
+    font-size: 0.875em;
     margin-bottom: 2em;
     padding-left: 0;
     padding-right: 0;
