@@ -137,11 +137,11 @@ input[type="submit"] {
 /* State Styles */
 
 .wf-active #isps h3 {
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .wf-active #quote h3 {
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .wf-active #quote p {
