@@ -18,9 +18,15 @@ $('#contact-form').on("submit", function(e) {
     phone: /^(\d{10})*\d{10}$/
   };
 
-$('.user_form li').on('click', function() {
-  $(this).find('user_form').focus();
-});
+if(!pattern.email.test(inputs.email)) {
+  console.log('Invalid Email');
+  $('.invalid').remove();
+  $('#input-email').append('<p class="invalid"> *A valid email address; (e.g., you@example.com)*</p>');
+}
+else {
+  console.log('Valid Email')
+  validator.email = true;
+}
 
 $('#email').on('keyup', function() {
   var email = {
