@@ -119,11 +119,12 @@ input[type="submit"] {
 
 .user-form li {
   /* border: 1px solid #444; */
-  background: #3F3F3F;
+  background: #004A45; /*boxes around input fields*/
 }
 
-.user-form .submit {
-  border: 0;
+.user-form .button {
+  border: none;
+  background: none;
 }
 
 
