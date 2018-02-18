@@ -55,18 +55,5 @@ if(validator.phone === true && validator.email === 'undefined') {
   $('#phone').append("<li>Thank You for taking the time to join our text-notifcations! We will be keeping in touch about everything 'Net Neutrality'.</li")
 }
 
-$('#phone').on('keyup', function() {
-  var phone = {
-    val: $(this).val(),
-    pat: /\d{3}.+\d{3}.+\d{4}/
-  }
-  if((phone.pat).test(phone.val)) {
-    console.log('working');
-    /*$('input[type="submit"]').addClass('show');*/
-  }
-  else {
-    console.log('invalid phone');
-    $(this).remove();
-    $('label [for="phone"]').append('<p class="invalid"> *A valid phone number; (###-###-####)*</p>');
-  }
+e.preventDefault();
 });
