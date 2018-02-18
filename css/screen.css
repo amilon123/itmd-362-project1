@@ -127,6 +127,27 @@ input[type="submit"] {
   border-color: #005C52;
 }
 
+.check label {
+  display: block;
+  float: left;
+  padding-right: 0.625em;
+  padding-left: 1.375em;
+  text-indent: -1.375em;
+}
+
+.check input {
+  vertical-align: middle;
+}
+
+.check label span {
+  vertical-align: middle;
+}
+
+.check #accept {
+  float: center;
+  width: 5%;
+}
+
 .user-form li {
   /* border: 1px solid #444; */
   background: #004A45; /*boxes around input fields*/
