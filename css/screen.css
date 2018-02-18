@@ -115,8 +115,11 @@ input::placeholder {
 }
 
 input[type="submit"] {
-  background: #37ced0;
-  color: #222;
+  background: #C2EBE0; /*box around button*/
+  color: #005747; /*text color in button*/
+  border-style: outset;
+  border-width: medium;
+  border-color: #005C52;
 }
 
 .user-form li {
