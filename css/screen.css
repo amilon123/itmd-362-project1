@@ -9,6 +9,12 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* Begin site styles below */
 
 /* Base Styles */
+/*
+  Hint: these tend to be
+  1. element selectors
+  2. concerned with color and typography
+  3. basic element presenation
+*/
 
 html {
   font-family: 'Orbitron', 'Lato', 'Raleway', verdana;
