@@ -318,5 +318,37 @@ input[type="submit"] {
 }
 
 @media screen and (min-width: 82.5em) {  /*1320px*/
+  html {
+    padding: 4em;
+    display: grid;
+    grid-template-columns: 20em 20em;
+    grid-template-areas: "h1 quote"
+                         "h2 form"
+                         "isps button";
+    grid-column-gap: 4em;
+  }
 
+  #project {
+    grid-area: h1;
+  }
+
+  #net {
+    grid-area: h2;
+  }
+
+  #isps {
+    grid-area: isps;
+  }
+
+  #quote h3 {
+    grid-area: quote;
+  }
+
+  .user-form {
+    grid-area: form;
+  }
+
+  .button {
+    grid-area: button;
+  }
 }
