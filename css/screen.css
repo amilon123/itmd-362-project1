@@ -46,15 +46,21 @@ ul {
 }
 
 section {
-  font-family: 'Philosopher';
+  font-family: 'Ubuntu', 'Philosopher', 'Roboto', 'PT Sans';
+}
+
+section h3 {
+  color: #6B9E9E;
+  font-weight: bold;
 }
 
 #quote h3 {
-  font-family: 'Philosopher';
+  font-family: 'Ubuntu', 'Philosopher', 'Roboto', 'PT Sans';
 }
 
 #quote p {
-  font-family: 'Philosopher';
+  font-family: 'Ubuntu', 'Philosopher', 'Roboto', 'PT Sans';
+
 }
 
 label,
@@ -146,7 +152,7 @@ input[type="submit"] {
 @media screen and (min-width: 22.5em) {  /*360px*/
 
   #net h2 {
-    font-family: 'Philosopher';
+    font-family: 'Ubuntu', 'Philosopher', 'Roboto', 'PT Sans';
   }
 
   #net {
