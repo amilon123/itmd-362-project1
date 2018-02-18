@@ -18,25 +18,25 @@ $('#contact-form').on("submit", function(e) {
     phone: /^(\d{10})*\d{10}$/
   };
 
-if(!pattern.email.test(inputs.email)) {
-  console.log('Invalid Email');
-  $('.invalid').remove();
-  $('#input-email').append('<p class="invalid"> *A valid email address; (e.g., you@example.com)*</p>');
-}
-else {
-  console.log('Valid Email')
-  validator.email = true;
-}
+  if(!pattern.email.test(inputs.email)) {
+    console.log('Invalid Email');
+    $('.invalid').remove();
+    $('#input-email').append('<p class="invalid"> *A valid email address; (e.g., you@example.com)*</p>');
+  }
+  else {
+    console.log('Valid Email');
+    validator.email = true;
+  }
 
-if(!pattern.phone.test(inputs.phone)) {
-  console.log('Invalid Phone');
-  $('.invalid').remove();
-  $('#input-phone').append('<p class="invalid"> *A valid phone number; (###-###-####)*</p>');
-}
-else {
-  console.log('Valid Phone');
-  validator.phone = true;
-}
+  if(!pattern.phone.test(inputs.phone)) {
+    console.log('Invalid Phone');
+    $('.invalid').remove();
+    $('#input-phone').append('<p class="invalid"> *A valid phone number; (###-###-####)*</p>');
+  }
+  else {
+    console.log('Valid Phone');
+    validator.phone = true;
+  }
 
 if(validator.email === true && validator.phone === 'undefined') {
   console.log('Only email!');
@@ -55,5 +55,5 @@ if(validator.phone === true && validator.email === 'undefined') {
   $('#phone').append("<li>Thank You for taking the time to join our text-notifcations! We will be keeping in touch about everything 'Net Neutrality'.</li")
 }
 
-e.preventDefault();
+  e.preventDefault();
 });
