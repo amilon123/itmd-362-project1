@@ -121,14 +121,6 @@ input[type="submit"] {
 
 /* State Styles */
 
-.js input[type="submit"] {
-  display: none;
-}
-
-.js input[type="submit"].show {
-  display: block;
-}
-
 .wf-active #isps h3 {
   font-weight: 500;
 }
