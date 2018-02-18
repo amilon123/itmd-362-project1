@@ -71,7 +71,7 @@ input {
 }
 label {
   height: 1.222em; /* 22 / 18 = 1.222em */
-  font-family: 'Volkhov';
+  font-family: 'Volkhov', 'PT Sans', 'Lato', sans-serif;
   font-size: 0.711em; /* 17 / 24 = 0.711 */
 }
 input {
