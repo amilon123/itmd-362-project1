@@ -21,6 +21,14 @@ html {
 
 #project h1 {
   color: #C22900; /*#FF2400;*/
+  background-color: #c2d6d6;
+  border-width: medium;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: white;
+  opacity: 0.7;
+  padding-left: 0.1em;
+  border-radius: 0.1em;
 }
 
 #net h2 {
