@@ -35,7 +35,7 @@ if(!pattern.phone.test(inputs.phone)) {
 }
 else {
   console.log('Valid Phone');
-  validator.email = true;
+  validator.phone = true;
 }
 
 if(validator.email === true && validator.phone === 'undefined') {
