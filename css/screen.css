@@ -156,10 +156,8 @@ input[type="submit"] {
 .user-form .button {
   border: none;
   background: none;
+  clear: both;
 }
-
-
-
 
 /* Layout Styles */
 
