@@ -73,12 +73,12 @@ input[type="submit"] {
   border-radius: 0.2em;
   float: right;
 }
-.user_form li {
+.user-form li {
   padding: 0.611em; /* 11 / 18 = 0.6111; (22 - 13) = 9 / 18 = 0.5 */
   margin-bottom: 0.611em; /* 11 / 18 = 0.6111 */
   border-radius: 0.2em;
 }
-.user_form .submit {
+.user-form .submit {
   padding-right: 0;
   background: inherit;
 }
@@ -103,12 +103,12 @@ input[type="submit"] {
   color: #222;
 }
 
-.inputs li {
+.user-form li {
   /* border: 1px solid #444; */
   background: #3F3F3F;
 }
 
-.inputs .submit {
+.user-form .submit {
   border: 0;
 }
 
