@@ -121,6 +121,14 @@ input[type="submit"] {
 
 /* State Styles */
 
+.js input[type="submit"] {
+  display: none;
+}
+
+.js input[type="submit"].show {
+  display: block;
+}
+
 .wf-active #isps h3 {
   font-weight: 500;
 }
@@ -134,11 +142,6 @@ input[type="submit"] {
 }
 
 @media screen and (min-width: 22.5em) {  /*360px*/
-
-  input[type="submit"] {
-    margin-left: 33%;
-    width: 50%;
-  }
 
   #net h2 {
     font-family: 'Philosopher';
