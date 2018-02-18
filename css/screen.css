@@ -119,6 +119,7 @@ input::placeholder {
 }
 
 input[type="submit"] {
+  font-family: 'Raleway';
   background: #C2EBE0; /*box around button*/
   color: #005747; /*text color in button*/
   border-style: outset;
