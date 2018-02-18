@@ -15,7 +15,7 @@ $('#contact-form').on("submit", function(e) {
   };
   var pattern = {
     email: /^[^\s@]+@[^\s@]+$/,
-    phone: /^(\d{10})*\d{10}$/
+    phone: /\d+/g
   };
 
   if(!pattern.email.test(inputs.email)) {
