@@ -282,7 +282,39 @@ input[type="submit"] {
 }
 
 @media screen and (min-width: 50.25em) {  /* 804px*/
+  html {
+    padding: 2em;
+    display: grid;
+    grid-template-columns: 12em 12em;
+    grid-template-areas: "h1 quote"
+                         "h2 form"
+                         "isps button";
+    grid-column-gap: 2em;
+  }
 
+  #project {
+    grid-area: h1;
+  }
+
+  #net {
+    grid-area: h2;
+  }
+
+  #isps {
+    grid-area: isps;
+  }
+
+  #quote h3 {
+    grid-area: quote;
+  }
+
+  .user-form {
+    grid-area: form;
+  }
+
+  .button {
+    grid-area: button;
+  }
 }
 
 @media screen and (min-width: 82.5em) {  /*1320px*/
