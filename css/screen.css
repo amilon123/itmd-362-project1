@@ -293,15 +293,21 @@ input[type="submit"] {
   main {
     padding: 2em;
     display: grid;
-    grid-template-columns: 12em 12em;
-    grid-template-areas: "h1 quote"
-                         "h2 form"
-                         "isps button";
-    grid-column-gap: 2em;
+    grid-template-columns: repeat (2, 2fr);
+    grid-template-areas: "isps ."
+                         "quote .";
   }
 
-  #project {
-    grid-area: h1;
+  .user-form {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 2.5em;
+    padding-left: 2em;
+    grid-template-areas: "email"
+                         "phone"
+                         "check"
+                         "button";
+    margin-top: 5em;
   }
 
   #net {
