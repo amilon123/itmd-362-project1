@@ -310,24 +310,29 @@ input[type="submit"] {
     margin-top: 5em;
   }
 
-  #net {
-    grid-area: h2;
+  .input-email {
+    grid-area: 'email';
   }
 
-  #isps {
-    grid-area: isps;
+  .input-phone{
+    grid-area: 'phone';
   }
 
-  #quote h3 {
-    grid-area: quote;
-  }
-
-  .user-form {
-    grid-area: form;
+  .check {
+    grid-area: 'check';
   }
 
   .button {
-    grid-area: button;
+    grid-area: 'button';
+  }
+
+
+  #isps {
+    grid-area: 'isps';
+  }
+
+  #quote h3 {
+    grid-area: 'quote';
   }
 }
 
