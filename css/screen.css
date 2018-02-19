@@ -58,7 +58,7 @@ input {
 }
 label {
   height: 1.222em; /* 22 / 18 = 1.222em */
-  font-family: 'Volkhov', 'PT Sans', 'Lato', sans-serif;
+  font-family: 'Roboto', 'PT Sans', 'Lato', sans-serif;
   font-size: 0.711em; /* 17 / 24 = 0.711 */
 }
 input {
@@ -81,14 +81,15 @@ input {
 }
 
 input::placeholder {
-  color: #ffaa80; /*text color for input fields*/
+  font-family: 'Roboto', 'PT Sans', 'Lato', sans-serif;
+  color: #46344e; /*text color for input fields*/
   opacity: 0.7;
 }
 
 input[type="submit"] {
-  font-family: 'Raleway';
-  background: #004A45; /*box around button*/
-  color: #ffaa80; /*text color in button*/
+  font-family: 'Ubuntu';
+  background: #FEFFFF; /*#004A45;*/ /*box around button*/
+  color: #46344e; /*text color in button*/
   border-style: outset;
   border-width: medium;
   border-color: #005C52;
@@ -99,7 +100,7 @@ input[type="submit"] {
 }
 
 #net h2 {
-  font-family: 'Ubuntu', 'Philosopher', 'Roboto', 'PT Sans';
+  font-family: 'Philosopher', 'Roboto', 'PT Sans';
   font-size: 1.5em; /* 24 /16 = 1.5*/
   color: #C2EBE0;
   background-color: #004A45; /* #008A82;*/
@@ -221,10 +222,6 @@ input[type="submit"] {
 }
 
 @media screen and (min-width: 22.5em) {  /*360px*/
-
-  #net h2 {
-    font-family: 'Ubuntu', 'Philosopher', 'Roboto', 'PT Sans';
-  }
 
   #net {
     color: green;
