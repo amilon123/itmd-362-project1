@@ -26,13 +26,17 @@
     return result;
   }
 
-  if(validator.phone === true && validator.email === 'undefined') {
-    console.log("Only phone");
-    $('#project').remove();
-    $('#project').append("<h1>Let's save the net!</h1>");
-    $('.user-form').remove('#phone');
-    $('#phone').append("<li>Thank You for taking the time to join our text-notifcations! We will be keeping in touch about everything 'Net Neutrality'.</li");
-  }
+  function valid_phone(phone) {
+    var result = false;
+    var cleaned;
 
-  e.preventDefault();
-});
+    if (phone.length > 0) {
+      cleaned = phone.match(/\d+/g).join('');
+      if(cleaned.length >= 10) {
+        result = true;
+      }
+    }
+
+    return result;
+  }
+})(jQuery);
