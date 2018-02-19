@@ -337,14 +337,11 @@ input[type="submit"] {
 }
 
 @media screen and (min-width: 82.5em) {  /*1320px*/
-  html {
-    padding: 4em;
-    display: grid;
-    grid-template-columns: 20em 20em;
-    grid-template-areas: "h1 quote"
-                         "h2 form"
-                         "isps button";
-    grid-column-gap: 4em;
+  #project h1 {
+    border: none;
+    font-size: 1.875em;
+    line-height: 1em;
+    margin-bottom: 0;
   }
 
   #project {
