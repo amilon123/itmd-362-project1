@@ -141,8 +141,8 @@ input[type="submit"] {
   display: block;
   float: left;
   padding-right: 0.625em;
-  padding-left: 1.375em;
-  text-indent: -1.375em;
+  padding-left: 1.5em;
+  text-indent: -1.5em;
 }
 
 .check input {
@@ -282,7 +282,6 @@ input[type="submit"] {
     padding-right: 0;
     border: none;
   }
-
 }
 
 @media screen and (min-width: 50.25em) {  /* 804px*/
@@ -338,6 +337,10 @@ input[type="submit"] {
   #quote h3 {
     grid-area: 'quote';
   }
+  .check #accept {
+    float: right;
+    width: 5%;
+  }
 }
 
 @media screen and (min-width: 82.5em) {  /*1320px*/
@@ -392,5 +395,8 @@ input[type="submit"] {
   #quote h3 {
     grid-area: 'quote';
   }
-}
+  .check #accept {
+    float: right;
+    width: 5%;
+  }
 }
