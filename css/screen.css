@@ -165,6 +165,21 @@ input::placeholder {
   2. concerned with adjustments to base styles,
       spacing, color, etc. etc.
 */
+.warn {
+  color: #A00000;
+}
+
+.success{
+  background-color: #181818;
+  color: #C22900; /*#FF2400;*/
+  padding-left: 0.1em;
+  border-width: medium;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-radius: 0.1em;
+  border-color: white;
+  opacity: 0.7;
+}
 
 .user-form li {
   padding: 0.611em; /* 11 / 18 = 0.6111; (22 - 13) = 9 / 18 = 0.5 */
