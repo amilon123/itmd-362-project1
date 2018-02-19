@@ -282,7 +282,15 @@ input[type="submit"] {
 }
 
 @media screen and (min-width: 50.25em) {  /* 804px*/
-  html {
+
+  #project h1 {
+    border: none;
+    font-size: 1.75em;
+    line-height: 1em;
+    margin-bottom: 0;
+  }
+
+  main {
     padding: 2em;
     display: grid;
     grid-template-columns: 12em 12em;
