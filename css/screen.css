@@ -65,7 +65,6 @@ input {
   box-sizing: border-box;
   border: 0;
   line-height: 1;
-  padding: 0.722em 0; /* 13 / 18 = 0.722 */
   height: 2.444em; /* 44 / 18 = 2.444 */
   background: inherit;
 }
@@ -227,7 +226,7 @@ input::placeholder {
   input {
     box-sizing: border-box;
   }
-  
+
   #net {
     color: green;
     font-size: 0.875em; /* 14 / 16 = 0.875 */
