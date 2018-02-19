@@ -18,8 +18,8 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 html {
   font-family: 'Orbitron', 'Lato', 'Raleway', verdana;
-  background: #005747;
-  color: #C2EBE0;
+  background: #2B7A78;  /*#005747;*/
+  color: #17252A; /*#C2EBE0;*/
   font-size: 1.625em; /* 26 / 16 = 1.625 */
   line-height: 0.923em; /* 24 / 26 = 0.923*/
   padding: 0.75em;
@@ -43,7 +43,11 @@ section {
 }
 
 section h3 {
-  color: #C2EBE0;
+  color: #FEFFFF; /*#C2EBE0;*/
+}
+
+p {
+  font-family: 'PT Sans';
 }
 
 label,
@@ -179,7 +183,8 @@ input[type="submit"] {
   padding: 0.611em; /* 11 / 18 = 0.6111; (22 - 13) = 9 / 18 = 0.5 */
   margin-bottom: 0.611em; /* 11 / 18 = 0.6111 */
   border-radius: 0.2em;
-  background: #007563; /* HERE !!!!! boxes around input fields*/
+  background: #edeae5; /*#007563;*/ /* HERE !!!!! boxes around input fields*/
+  opacity: 0.6;
 }
 
 .user-form .submit {
