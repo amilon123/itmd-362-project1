@@ -77,7 +77,7 @@ input[type="submit"] {
 }
 a,
 input {
-  color: #ffaa80; /*user input*/
+  color: #46344e; /*user input*/
 }
 
 input::placeholder {
@@ -96,6 +96,8 @@ input[type="submit"] {
 }
 
 #project h1 {
+  background-color: #181818;
+  opacity: 0.6;
   color: #C22900; /*#FF2400;*/
 }
 
