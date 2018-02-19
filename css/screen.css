@@ -193,19 +193,19 @@ input::placeholder {
 3. Organized by Base, Layout, Module, State
 */
 .wf-active input[type="submit"] {
-  font-weight: 700;
+  font-weight: "700";
 }
 
 .wf-active #isps h3 {
-  font-weight: 700;
+  font-weight: "700";
 }
 
 .wf-active #quote h3 {
-  font-weight: 700;
+  font-weight: "700";
 }
 
 .wf-active #quote p {
-  font-weight: 400i;
+  font-weight: "400i";
 }
 
 @media screen and (min-width: 22.5em) {  /*360px*/
@@ -288,28 +288,28 @@ input::placeholder {
   }
 
   .input-email {
-    grid-area: 'email';
+    grid-area: "email";
   }
 
-  .input-phone{
-    grid-area: 'phone';
+  .input-phone {
+    grid-area: "phone";
   }
 
   .check {
-    grid-area: 'check';
+    grid-area: "check";
   }
 
   .button {
-    grid-area: 'button';
+    grid-area: "button";
   }
 
 
   #isps {
-    grid-area: 'isps';
+    grid-area: "isps";
   }
 
   #quote h3 {
-    grid-area: 'quote';
+    grid-area: "quote";
   }
   .check #accept {
     float: right;
@@ -346,28 +346,28 @@ input::placeholder {
   }
 
   .input-email {
-    grid-area: 'email';
+    grid-area: "email";
   }
 
-  .input-phone{
-    grid-area: 'phone';
+  .input-phone {
+    grid-area: "phone";
   }
 
   .check {
-    grid-area: 'check';
+    grid-area: "check";
   }
 
   .button {
-    grid-area: 'button';
+    grid-area: "button";
   }
 
 
   #isps {
-    grid-area: 'isps';
+    grid-area: "isps";
   }
 
   #quote h3 {
-    grid-area: 'quote';
+    grid-area: "quote";
   }
   .check #accept {
     float: right;
