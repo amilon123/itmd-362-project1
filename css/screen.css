@@ -249,6 +249,16 @@ input::placeholder {
     border-color: #008A82;
   }
 
+  #isps p:last-child {
+    margin-bottom: 2em;
+  }
+
+  #quote h3 {
+    font-size: 1.375em; /* 22 / 16 = 1.375 */
+    line-height: 1.133em; /* 34 / 30 = 1.133*/
+    margin-bottom: 0.1em;
+  }
+
   #quote p:last-child {
     font-size: 0.875em;
     margin-bottom: 2em;
