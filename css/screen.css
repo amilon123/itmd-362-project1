@@ -344,27 +344,49 @@ input[type="submit"] {
     margin-bottom: 0;
   }
 
-  #project {
-    grid-area: h1;
-  }
-
-  #net {
-    grid-area: h2;
-  }
-
-  #isps {
-    grid-area: isps;
-  }
-
-  #quote h3 {
-    grid-area: quote;
+  main {
+    padding: 2em;
+    display: grid;
+    grid-template-columns: repeat (2, 2fr);
+    grid-template-areas: "isps ."
+                         "quote .";
   }
 
   .user-form {
-    grid-area: form;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 2.5em;
+    padding-left: 2em;
+    grid-template-areas: "email"
+                         "phone"
+                         "check"
+                         "button";
+    margin-top: 3em;
+  }
+
+  .input-email {
+    grid-area: 'email';
+  }
+
+  .input-phone{
+    grid-area: 'phone';
+  }
+
+  .check {
+    grid-area: 'check';
   }
 
   .button {
-    grid-area: button;
+    grid-area: 'button';
   }
+
+
+  #isps {
+    grid-area: 'isps';
+  }
+
+  #quote h3 {
+    grid-area: 'quote';
+  }
+}
 }
